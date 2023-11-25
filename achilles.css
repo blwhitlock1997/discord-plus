@@ -1,0 +1,117 @@
+.epi-post5-1 {
+  box-sizing: unset!important;
+  width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid rgba(var(--accentRGB),.3);
+  border-radius: 30px;
+}
+.epi-post5 {
+background: rgba(var(--darkRGB), .24);
+  border: 1px solid rgba(var(--supportRGB),.3);
+  border-radius: 20px;
+  width: 500px;
+  min-height: 250px;
+  overflow: hidden;
+}
+.epi-post5 .epi-lyrics {
+  position: relative;
+  width: 500px;
+  height: 100px;
+  outline-offset: 12px;
+  outline: 1px solid rgba(var(--lightRGB),.3);
+  background: linear-gradient(
+    to bottom right,
+    rgba(var(--supportRGB),.23),
+    rgba(var(--accentRGB),.23)
+  );
+  border-radius: 0px 0 100px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.epi-post5 .epi-lyrics .lyric1 {
+  color: var(--light);
+  font: italic 800 20px var(--fontTitle);
+}
+.epi-post5 .epi-lyrics .lyric2 {
+  display: block;
+  color: var(--lighter);
+  font: 700 11px var(--fontBody);
+  text-transform: uppercase;
+}
+.epi-post5 .epi-lyrics .tagged {
+  position: absolute;
+  bottom: -15px;
+  right: 15px;
+  border-radius: 15px;
+  padding: 5px 30px;
+  background: var(--darker);
+  border: 1px solid rgba(var(--lightRGB),.3);
+}
+.epi-post5 .epi-lyrics .tagged a:before {
+  content: "for ";
+  color: var(--light);
+}
+.epi-post5 .epi-lyrics .tagged a {
+  text-shadow: none;
+  font: italic 800 18px var(--fontTitle);
+  text-decoration: none;
+  text-transform: lowercase;
+  background: linear-gradient(to right, var(--support), var(--accent));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.epi-post5 .epi-postbody {
+  position: relative;
+  text-align: justify;
+  color: var(--light);
+  font: 400 15px/20px var(--fontBody);
+  width: 380px;
+  min-height: 200px;
+  margin: 50px auto;
+}
+.epi-post5 .epi-postbody u {
+  text-decoration-color: var(--accentPink);
+  text-underline-offset: 6px;
+}
+.epi-post5 .epi-postbody b {
+  background: linear-gradient(to right, var(--accent), var(--support));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font: 900 14px var(--fontTitle);
+  filter: brightness(85%);
+}
+.epi-post5 .epi-postbody .epi-icon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -13px;
+  left: -18px;
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+  background: rgba(var(--accentRGB),.33);
+  border: 1px solid var(--accent);
+}
+.epi-post5 .epi-postbody .epi-icon {
+  position: relative;
+  z-index: 99;
+  float: left;
+  border-radius: 5px;
+  outline-offset: 7px;
+  width: 100px;
+  height: 100px;
+  margin: 20px 20px 20px 0px;
+}
+.epi-post5 .epi-postbody .epi-icon img {
+  position: relative;
+  z-index: 99;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
